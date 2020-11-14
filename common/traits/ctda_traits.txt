@@ -1,0 +1,32 @@
+ctda_necromancer = {
+	index = 5000
+	lifestyle = yes
+	random_creation = 0
+	good = yes
+	same_opinion = 20
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ctda_necromancer_desc
+			}
+			desc = trait_ctda_necromancer_character_desc
+		}
+	}
+
+	# TODO: find ways to mask this as long as secret not revealed, preferably without another trait
+	triggered_opinion = {
+		parameter = ctda_necromancy_illegal
+		opinion_modifier = ctda_necromancy_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = ctda_necromancy_shunned
+		opinion_modifier = ctda_necromancy_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+	
+}

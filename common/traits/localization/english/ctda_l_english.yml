@@ -1,0 +1,4 @@
+﻿l_english:
+  trait_ctda_necromancer:0 "Necromancer"
+  trait_ctda_necromancer_desc:0 "This character is practicing necromancy."
+  trait_ctda_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] is practicing necromancy."
