@@ -1,0 +1,5 @@
+ctda_necromancer_lifestyle = {
+
+	xp_per_level = 1000
+	base_xp_gain = 20
+}

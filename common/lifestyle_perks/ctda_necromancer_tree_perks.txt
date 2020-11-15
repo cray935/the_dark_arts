@@ -1,0 +1,22 @@
+ctda_necromancer_novice_perk = {
+	lifestyle = ctda_necromancer_lifestyle
+	tree = ctda_necromancer_tree
+	position = { 2 0 }
+	icon = trait_ctda_necromancer
+	effect = {
+		add_trait_force_tooltip = ctda_necromancer
+		hidden_effect = {
+
+		}
+	}
+}
+
+ctda_believer_of_death_perk = {
+	lifestyle = ctda_necromancer_lifestyle
+	tree = ctda_necromancer_tree
+	position = { 2 1 }
+	icon = node_intrigue
+	character_modifier = {
+		monthly_piety = 2
+	}
+}
