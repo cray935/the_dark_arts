@@ -1,0 +1,11 @@
+﻿l_english:
+  ctda_doctrine_necromancy_name:0 "Necromancy"
+  ctda_doctrine_necromancy_crime_name:0 "Criminal"
+  ctda_doctrine_necromancy_crime_desc:0 "Necromancy is unnatural!"
+  ctda_doctrine_necromancy_shunned_name:0 "Shunned"
+  ctda_doctrine_necromancy_shunned_desc:0 "Necromancy should not be practiced, be aware of its danger."
+  ctda_doctrine_necromancy_accepted_name:0 "Accepted"
+  ctda_doctrine_necromancy_accepted_desc:0 "Necromancy leads back to the beginning, who are we to judge?"
+  ctda_necromancy_illegal:0 "Characters who are practicing necromancy are [criminals|E]"
+  ctda_necromancy_shunned:0 "Characters who are practicing necromancy are [shunned|E]"
+  ctda_necromancy_accepted:0 "Characters who are practicing necromancy are fully accepted"
