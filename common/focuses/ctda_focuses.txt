@@ -1,0 +1,41 @@
+ctda_necromancer_knowledge_focus = {
+	lifestyle = ctda_necromancer_lifestyle
+	focus_id = 100
+
+	desc = {
+		desc = ctda_necromancer_knowledge_focus_desc
+		desc = line_break
+	}
+
+	modifier = {
+		monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.25
+	}
+}
+
+ctda_necromancer_meditation_focus = {
+	lifestyle = ctda_necromancer_lifestyle
+	focus_id = 101
+
+	desc = {
+		desc = ctda_necromancer_meditation_focus_desc
+		desc = line_break
+	}
+
+	modifier = {
+		monthly_piety = 2
+	}
+}
+
+ctda_necromancer_secrecy_focus = {
+	lifestyle = ctda_necromancer_lifestyle
+	focus_id = 102
+
+	desc = {
+		desc = ctda_necromancer_secrecy_focus_desc
+		desc = line_break
+	}
+
+	modifier = {
+		intrigue = 2
+	}
+}
