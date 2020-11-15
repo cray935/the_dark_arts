@@ -1,102 +1,59 @@
-ctda_necromancer = {
+ctda_necromancer_1 = {
 	index = 5000
+	level = 1
 	random_creation = 0
-	same_opinion = 20
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_ctda_necromancer_desc
-			}
-			desc = trait_ctda_necromancer_character_desc
-		}
-	}
+	group = ctda_necromancer
+}
+
+ctda_necromancer_2 = {
+	index = 5001
+	level = 2
+	random_creation = 0
+	group = ctda_necromancer
+}
+
+ctda_necromancer_3 = {
+	index = 5002
+	level = 3
+	random_creation = 0
+	group = ctda_necromancer
+}
+
+ctda_necromancer_4 = {
+	index = 5003
+	level = 4
+	random_creation = 0
+	group = ctda_necromancer
+}
+
+ctda_necromancer_5 = {
+	index = 5004
+	level = 5
+	random_creation = 0
+	group = ctda_necromancer
 }
 
 ctda_lore_bones = {
-	index = 5001
+	index = 5005
 	random_creation = 0
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_ctda_lore_bones_desc
-			}
-			desc = trait_ctda_lore_bones_character_desc
-		}
-	}
 }
 
 ctda_lore_souls = {
-	index = 5002
+	index = 5006
 	random_creation = 0
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_ctda_lore_souls_desc
-			}
-			desc = trait_ctda_lore_souls_character_desc
-		}
-	}
 }
 
 ctda_lore_flesh = {
-	index = 5003
+	index = 5007
 	random_creation = 0
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_ctda_lore_flesh_desc
-			}
-			desc = trait_ctda_lore_flesh_character_desc
-		}
-	}
 }
 
 ctda_lore_curses = {
-	index = 5004
+	index = 5008
 	random_creation = 0
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_ctda_lore_curses_desc
-			}
-			desc = trait_ctda_lore_curses_character_desc
-		}
-	}
 }
 
 ctda_lore_undeath = {
-	index = 5005
+	index = 5009
 	random_creation = 0
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_ctda_lore_undeath_desc
-			}
-			desc = trait_ctda_lore_undeath_character_desc
-		}
-	}
 }
