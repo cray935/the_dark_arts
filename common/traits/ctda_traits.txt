@@ -1,8 +1,6 @@
 ctda_necromancer = {
 	index = 5000
-	lifestyle = yes
 	random_creation = 0
-	good = yes
 	same_opinion = 20
 	
 	desc = {
@@ -16,17 +14,89 @@ ctda_necromancer = {
 			desc = trait_ctda_necromancer_character_desc
 		}
 	}
+}
 
-	# TODO: find ways to mask this as long as secret not revealed, preferably without another trait
-	triggered_opinion = {
-		parameter = ctda_necromancy_illegal
-		opinion_modifier = ctda_necromancy_crime
-		ignore_opinion_value_if_same_trait = yes
-	}
-	triggered_opinion = {
-		parameter = ctda_necromancy_shunned
-		opinion_modifier = ctda_necromancy_intolerant
-		ignore_opinion_value_if_same_trait = yes
-	}
+ctda_lore_bones = {
+	index = 5001
+	random_creation = 0
 	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ctda_lore_bones_desc
+			}
+			desc = trait_ctda_lore_bones_character_desc
+		}
+	}
+}
+
+ctda_lore_souls = {
+	index = 5002
+	random_creation = 0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ctda_lore_souls_desc
+			}
+			desc = trait_ctda_lore_souls_character_desc
+		}
+	}
+}
+
+ctda_lore_flesh = {
+	index = 5003
+	random_creation = 0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ctda_lore_flesh_desc
+			}
+			desc = trait_ctda_lore_flesh_character_desc
+		}
+	}
+}
+
+ctda_lore_curses = {
+	index = 5004
+	random_creation = 0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ctda_lore_curses_desc
+			}
+			desc = trait_ctda_lore_curses_character_desc
+		}
+	}
+}
+
+ctda_lore_undeath = {
+	index = 5005
+	random_creation = 0
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ctda_lore_undeath_desc
+			}
+			desc = trait_ctda_lore_undeath_character_desc
+		}
+	}
 }

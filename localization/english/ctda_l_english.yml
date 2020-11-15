@@ -1,4 +1,33 @@
 ﻿l_english:
+  
+  ### TRAITS ###
+  
   trait_ctda_necromancer:0 "Necromancer"
   trait_ctda_necromancer_desc:0 "This character is practicing necromancy."
   trait_ctda_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] is practicing necromancy."
+  
+  trait_ctda_lore_bones:0 "Lore of bones"
+  trait_ctda_lore_bones_base_desc:0 "This lore is full of knowledge to raise skeletal minions for fighting."
+  trait_ctda_lore_bones_desc:0 "$trait_ctda_lore_bones_base$"
+  trait_ctda_lore_bones_character_desc:0 "$trait_ctda_lore_bones_base$"
+  
+  trait_ctda_lore_souls:0 "Lore of souls"
+  trait_ctda_lore_souls_base_desc:0 "This lore concentrates on the accusition of soul gems, soul trapping and offerings to the ideal masters for power."
+  trait_ctda_lore_souls_desc:0 "$trait_ctda_lore_souls_base$"
+  trait_ctda_lore_souls_character_desc:0 "$trait_ctda_lore_souls_base$"
+  
+  trait_ctda_lore_flesh:0 "Lore of flesh"
+  trait_ctda_lore_flesh_base_desc:0 "This lore grants abilities to extend the necromancer‘s lifespan and later to improve other character‘s  skills."
+  trait_ctda_lore_flesh_desc:0 "$trait_ctda_lore_flesh_base$"
+  trait_ctda_lore_flesh_character_desc:0 "$trait_ctda_lore_flesh_base$"
+  
+  trait_ctda_lore_curses:0 "Lore of curses"
+  trait_ctda_lore_curses_base_desc:0 "This lore contains knowledge to spread disease and plaque to foes."
+  trait_ctda_lore_curses_desc:0 "$trait_ctda_lore_curses_base$"
+  trait_ctda_lore_curses_character_desc:0 "$trait_ctda_lore_curses_base$"
+  
+  trait_ctda_lore_undeath:0 "Lore of undeath"
+  trait_ctda_lore_undeath_base_desc:0 "This lore reveals the ability to become a powerful lich and to make other characters undead."
+  trait_ctda_lore_undeath_desc:0 "$trait_ctda_lore_undeath_base$"
+  trait_ctda_lore_undeath_character_desc:0 "$trait_ctda_lore_undeath_base$"
+  
