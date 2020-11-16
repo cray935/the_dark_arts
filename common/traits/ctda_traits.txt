@@ -3,6 +3,9 @@ ctda_necromancer_1 = {
 	level = 1
 	random_creation = 0
 	group = ctda_necromancer
+	
+	learning = 1
+	intrigue = 1
 }
 
 ctda_necromancer_2 = {
@@ -10,6 +13,9 @@ ctda_necromancer_2 = {
 	level = 2
 	random_creation = 0
 	group = ctda_necromancer
+
+	learning = 1
+	intrigue = 2
 }
 
 ctda_necromancer_3 = {
@@ -17,6 +23,9 @@ ctda_necromancer_3 = {
 	level = 3
 	random_creation = 0
 	group = ctda_necromancer
+
+	learning = 2
+	intrigue = 2
 }
 
 ctda_necromancer_4 = {
@@ -24,6 +33,9 @@ ctda_necromancer_4 = {
 	level = 4
 	random_creation = 0
 	group = ctda_necromancer
+
+	learning = 2
+	intrigue = 3
 }
 
 ctda_necromancer_5 = {
@@ -31,31 +43,49 @@ ctda_necromancer_5 = {
 	level = 5
 	random_creation = 0
 	group = ctda_necromancer
+
+	learning = 3
+	intrigue = 3
 }
 
 ctda_lore_bones = {
 	index = 5005
 	random_creation = 0
+
+	intrigue = 1
+	monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.1
 }
 
 ctda_lore_souls = {
 	index = 5006
 	random_creation = 0
+
+	learning = 1
+	monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.1
 }
 
 ctda_lore_flesh = {
 	index = 5007
 	random_creation = 0
+
+	intrigue = 1
+	monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.1
 }
 
 ctda_lore_curses = {
 	index = 5008
 	random_creation = 0
+
+	intrigue = 1
+	monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.1
 }
 
 ctda_lore_undeath = {
 	index = 5009
 	random_creation = 0
+
+	learning = 2
+	monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.1
 }
 
 ctda_known_necromancer = {
