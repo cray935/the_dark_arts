@@ -1,0 +1,38 @@
+ctda_activity_practice_necromancy = {
+	expiration_days = 30
+	days_until_auto_start = 5
+	frame = 3
+	color = { 0.853906 0.867188 0.105469 1 } # copied from the witch ritual
+	activity_show_accepted = yes
+
+	valid = {
+		OR = {
+			activity_owner = { # If the host dies or is imprisoned before the ritual, invalidate
+				is_alive = yes
+				is_imprisoned = no
+				is_necromancer = yes
+			}
+			activity_has_been_activated = yes # If the ritual has started, it will not be interrupted
+		}
+	}
+
+	on_spawn = {
+		invite_character_to_activity = activity_owner
+		accept_invitation_for_character = activity_owner
+		trigger_event = {
+			id = ctda_activity_practice_necromancy_events.1
+		}
+	}
+
+	on_complete = {
+		
+	}
+
+	on_expire = {
+		
+	}
+
+	on_invalidated = {
+		
+	}
+}

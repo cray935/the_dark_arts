@@ -1,0 +1,54 @@
+ctda_decision_practice_necromancy = {
+	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+	ai_check_interval = 6
+	desc = ctda_decision_practice_necromancy_desc
+	cost = {
+		piety = 50
+	}
+
+	cooldown = {
+		months = 3
+	}
+
+	is_shown = {
+		is_landed = yes
+		is_necromancer = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		
+		hidden_effect = {
+			random_sub_realm_barony = {
+				title_province = {
+					spawn_activity = {
+						type = ctda_activity_practice_necromancy
+						owner = root
+					}
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 35
+
+		modifier = {
+			add = 10
+			has_trait_rank = {
+				trait = ctda_necromancer
+				rank < 3
+			}
+		}
+		modifier = {
+			add = 10
+			has_trait_rank = {
+				trait = ctda_necromancer
+				rank < 2
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+﻿l_english:
+  ctda_activity_practice_necromancy_events.1.t:0 "Practicing the dark arts"
+  ctda_activity_practice_necromancy_events.1.desc:0 "I am ready to perform necromantic activities. I have multiple options I'm aware of. What should I do?"
+  ctda_activity_practice_necromancy_events.1.a:0 "Study corpses"
+  ctda_activity_practice_necromancy_events.1.b:0 "Prepare corpse"
+  ctda_activity_practice_necromancy_events.1.c:0 "Find a grimoire"
+  ctda_activity_practice_necromancy_events.1.d:0 "Study grimoire"
+  ctda_activity_practice_necromancy_events.1.e:0 "Raise corpse"

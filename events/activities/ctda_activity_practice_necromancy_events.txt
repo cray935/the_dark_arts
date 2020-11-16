@@ -1,0 +1,49 @@
+ctda_activity_practice_necromancy_events.1 = {
+	type = character_event
+	title = ctda_activity_practice_necromancy_events.1.t
+	desc = ctda_activity_practice_necromancy_events.1.desc
+	theme = witchcraft
+	override_background = {
+		event_background = corridor
+	}
+	right_portrait = root
+
+	# Study corpses
+	option = {
+		name = ctda_activity_practice_necromancy_events.1.a
+		# TODO: implement duel, novice
+	}
+
+	# Prepare corpse
+	option = {
+		name = ctda_activity_practice_necromancy_events.1.b
+		# TODO: implement duel, novice
+	}
+
+	# Find grimoire
+	option = {
+		name = ctda_activity_practice_necromancy_events.1.c
+		trigger = {
+			is_necromancer_apprentice = yes
+		}
+		# TODO: implement duel, apprentice
+	}
+
+	# Study grimoire
+	option = {
+		name = ctda_activity_practice_necromancy_events.1.d
+		trigger = {
+			is_necromancer_apprentice = yes
+		}
+		# TODO: implement duel, apprentice
+	}
+
+	# Raise corpse
+	option = {
+		name = ctda_activity_practice_necromancy_events.1.e
+		trigger = {
+			is_necromancer_adept = yes
+		}
+		# TODO: implement duel, adept
+	}
+}

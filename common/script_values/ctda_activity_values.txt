@@ -1,0 +1,114 @@
+#########################################################################################################################
+# Required base values for skilled actions per expert level.
+# The character's necromancer trait level determines the success chance for activities on equal expert level.
+# Novice    : 55 %
+# Apprentice: 65 %
+# Adept     : 75 %
+# Exoert    : 85 %
+# Master    : 95 %
+#########################################################################################################################
+ctda_necromancer_skill_req_novice = 5
+ctda_necromancer_skill_req_apprentice = 10
+ctda_necromancer_skill_req_adept = 15
+ctda_necromancer_skill_req_expert = 20
+ctda_necromancer_skill_req_master = 25
+ctda_necromancer_success_chance_novice = 0.55
+ctda_necromancer_success_chance_apprentice = 0.65
+ctda_necromancer_success_chance_adept = 0.75
+ctda_necromancer_success_chance_expert = 0.85
+ctda_necromancer_success_chance_master = 0.95
+
+# Calculates the correct success percentage for character's trait
+ctda_necromancer_success_multiplier = {
+	value = 0
+	if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_1
+			}
+		}
+		add = ctda_necromancer_success_chance_novice
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_2
+			}
+		}
+		add = ctda_necromancer_success_chance_apprentice
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_3
+			}
+		}
+		add = ctda_necromancer_success_chance_adept
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_4
+			}
+		}
+		add = ctda_necromancer_success_chance_expert
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_5
+			}
+		}
+		add = ctda_necromancer_success_chance_master
+	}
+}
+
+# Calculates the character's skill value for "duels"
+ctda_necromancer_skill_value = {
+	value = 0
+	if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_1
+			}
+		}
+		add = ctda_necromancer_skill_req_novice
+		multiply = ctda_necromancer_success_chance_novice
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_2
+			}
+		}
+		add = ctda_necromancer_skill_req_apprentice
+		multiply = ctda_necromancer_success_chance_apprentice
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_3
+			}
+		}
+		add = ctda_necromancer_skill_req_adept
+		multiply = ctda_necromancer_success_chance_adept
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_4
+			}
+		}
+		add = ctda_necromancer_skill_req_expert
+		multiply = ctda_necromancer_success_chance_expert
+	}
+	else_if = {
+		limit = {
+			root = {
+				has_trait = ctda_necromancer_5
+			}
+		}
+		add = ctda_necromancer_skill_req_master
+		multiply = ctda_necromancer_success_chance_master
+	}
+}
