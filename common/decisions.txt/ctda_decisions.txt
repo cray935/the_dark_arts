@@ -1,5 +1,5 @@
 ctda_decision_practice_necromancy = {
-	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+	picture = "gfx/interface/illustrations/decisions/ctda_decision_practice_necromancy.dds"
 	ai_check_interval = 6
 	desc = ctda_decision_practice_necromancy_desc
 	cost = {
