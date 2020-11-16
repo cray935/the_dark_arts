@@ -10,7 +10,7 @@ ctda_activity_practice_necromancy = {
 			activity_owner = {
 				is_alive = yes
 				is_imprisoned = no
-				is_necromancer = yes
+				has_trait = ctda_necromancer
 			}
 			activity_has_been_activated = yes
 		}

@@ -1,37 +1,27 @@
-is_necromancer = {
-	OR = {
-		has_trait = ctda_necromancer_1
-		has_trait = ctda_necromancer_2
-		has_trait = ctda_necromancer_3
-		has_trait = ctda_necromancer_4
-		has_trait = ctda_necromancer_5
-	}
-}
-
 is_necromancer_apprentice = {
-	OR = {
-		has_trait = ctda_necromancer_2
-		has_trait = ctda_necromancer_3
-		has_trait = ctda_necromancer_4
-		has_trait = ctda_necromancer_5
+	has_trait_rank = {
+		trait = ctda_necromancer
+		rank > 1
 	}
 }
 
 is_necromancer_adept = {
-	OR = {
-		has_trait = ctda_necromancer_3
-		has_trait = ctda_necromancer_4
-		has_trait = ctda_necromancer_5
+	has_trait_rank = {
+		trait = ctda_necromancer
+		rank > 2
 	}
 }
 
 is_necromancer_expert = {
-	OR = {
-		has_trait = ctda_necromancer_4
-		has_trait = ctda_necromancer_5
+	has_trait_rank = {
+		trait = ctda_necromancer
+		rank > 3
 	}
 }
 
 is_necromancer_master = {
-	has_trait = ctda_necromancer_5
+	has_trait_rank = {
+		trait = ctda_necromancer
+		rank > 4
+	}
 }
