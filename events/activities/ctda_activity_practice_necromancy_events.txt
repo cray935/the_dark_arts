@@ -1,3 +1,5 @@
+namespace = ctda_activity_practice_necromancy_events
+
 ctda_activity_practice_necromancy_events.1 = {
 	type = character_event
 	title = ctda_activity_practice_necromancy_events.1.t

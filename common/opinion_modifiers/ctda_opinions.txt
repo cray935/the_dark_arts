@@ -1,0 +1,9 @@
+ctda_opinion_necromancy_illegal = {
+	opinion = -30
+	imprisonment_reason = yes
+	execute_reason = yes
+}
+
+ctda_opinion_necromancy_shunned = {
+	opinion = -15
+}

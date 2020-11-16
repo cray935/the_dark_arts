@@ -57,3 +57,19 @@ ctda_lore_undeath = {
 	index = 5009
 	random_creation = 0
 }
+
+ctda_known_necromancer = {
+	index = 5010
+	random_creation = 0
+	
+	triggered_opinion = {
+		parameter = ctda_necromancy_illegal
+		opinion_modifier = ctda_opinion_necromancy_illegal
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = ctda_necromancy_shunned
+		opinion_modifier = ctda_opinion_necromancy_shunned
+		ignore_opinion_value_if_same_trait = yes	
+	}
+}
