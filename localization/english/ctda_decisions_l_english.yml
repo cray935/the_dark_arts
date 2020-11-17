@@ -1,3 +1,5 @@
 ﻿l_english:
   ctda_decision_practice_necromancy:0 "Practice Necromancy"
   ctda_decision_practice_necromancy_desc:0 "Perform necromantic actions to gain more knowledge and perhaps artifacts or minions."
+  ctda_decision_practice_necromancy_tooltip:0 "$ctda_decision_practice_necromancy_desc$"
+  ctda_decision_practice_necromancy_confirm:0 "Start practicing"

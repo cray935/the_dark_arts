@@ -102,3 +102,19 @@ ctda_activity_practice_necromancy_events.3 = {
 		name = ctda_activity_practice_necromancy_events.3.a
 	}
 }
+
+# End the activity
+ctda_activity_practice_necromancy_events.100 = {
+	type = character_event
+	
+	after = {
+		if = {
+			limit = {
+				exists = scope:activity
+			}
+			scope:activity = {
+				complete_activity = yes
+			}
+		}
+	}
+}

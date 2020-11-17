@@ -19,8 +19,13 @@ ctda_activity_practice_necromancy = {
 	on_spawn = {
 		invite_character_to_activity = activity_owner
 		accept_invitation_for_character = activity_owner
-		trigger_event = {
-			id = ctda_activity_practice_necromancy_events.1
+	}
+
+	on_activate = {
+		activity_owner = {
+			trigger_event = {
+				id = ctda_activity_practice_necromancy_events.1
+			}
 		}
 	}
 
