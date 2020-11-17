@@ -9,3 +9,4 @@ WIP: mod concept and help will go in here
 
 # Credits
 - Trait graphics are free icons from https://www.iconfinder.com 
+- Some larger arts are from https://www.deviantart.com/jasontn
