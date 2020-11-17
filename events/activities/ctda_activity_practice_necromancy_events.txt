@@ -13,7 +13,27 @@ ctda_activity_practice_necromancy_events.1 = {
 	# Study corpses
 	option = {
 		name = ctda_activity_practice_necromancy_events.1.a
-		# TODO: implement duel, novice
+		
+		random_list = {
+			1 = {
+				modifier = {
+					factor = ctda_necromancer_novice_success_chance
+				}
+				trigger_event = {
+					id = ctda_activity_practice_necromancy_events.2
+					days = 3
+				}
+			}
+			1 = {
+				modifier = {
+					factor = ctda_necromancer_novice_fail_chance
+				}
+				trigger_event = {
+					id = ctda_activity_practice_necromancy_events.3
+					days = 3
+				}
+			}
+		}
 	}
 
 	# Prepare corpse
@@ -47,5 +67,38 @@ ctda_activity_practice_necromancy_events.1 = {
 			is_necromancer_adept = yes
 		}
 		# TODO: implement duel, adept
+	}
+}
+
+# Study corpses success
+ctda_activity_practice_necromancy_events.2 = {
+	type = character_event
+	title = ctda_activity_practice_necromancy_events.2.t
+	desc = ctda_activity_practice_necromancy_events.2.desc
+	theme = witchcraft
+	override_background = {
+		event_background = corridor
+	}
+	right_portrait = root
+
+	option = {
+		name = ctda_activity_practice_necromancy_events.2.a
+		add_ctda_necromancer_lifestyle_xp = 300
+	}
+}
+
+# Study corpses fail
+ctda_activity_practice_necromancy_events.3 = {
+	type = character_event
+	title = ctda_activity_practice_necromancy_events.3.t
+	desc = ctda_activity_practice_necromancy_events.3.desc
+	theme = witchcraft
+	override_background = {
+		event_background = corridor
+	}
+	right_portrait = root
+
+	option = {
+		name = ctda_activity_practice_necromancy_events.3.a
 	}
 }
