@@ -26,7 +26,4 @@
   
   trait_ctda_lore_undeath:0 "Lore of Undeath"
   trait_ctda_lore_undeath_desc:0 "This lore reveals the ability to become a powerful lich and to make other characters undead."
-
-  trait_ctda_known_necromancer:0 "Practices Necromancy"
-  trait_ctda_known_necromancer_desc:0 "This character is known for practicing the dark arts."
   
