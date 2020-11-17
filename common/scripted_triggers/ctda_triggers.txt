@@ -1,3 +1,10 @@
+is_necromancer = {
+	has_trait_rank = {
+		trait = ctda_necromancer
+		rank > 0
+	}
+}
+
 is_necromancer_apprentice = {
 	has_trait_rank = {
 		trait = ctda_necromancer

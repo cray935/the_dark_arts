@@ -33,9 +33,6 @@ ctda_necromancer_novice_perk = {
 
 	effect = {
 		add_trait_force_tooltip = ctda_necromancer_1
-		hidden_effect = {
-			ctda_give_necromancer_secret_or_trait = yes
-		}
 	}
 }
 

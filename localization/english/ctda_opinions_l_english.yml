@@ -1,3 +1,0 @@
-﻿l_english:
-  ctda_opinion_necromancy_illegal:0 "[GetTrait('ctda_known_necromancer').GetName( GetNullCharacter )]"
-  ctda_opinion_necromancy_shunned:0 "[GetTrait('ctda_known_necromancer').GetName( GetNullCharacter )]"
