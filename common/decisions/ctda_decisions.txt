@@ -12,7 +12,7 @@ ctda_decision_practice_necromancy = {
 
 	is_shown = {
 		is_landed = yes
-		has_trait = ctda_necromancer
+		is_necromancer = yes
 	}
 
 	is_valid_showing_failures_only = {
