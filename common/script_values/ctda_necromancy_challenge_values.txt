@@ -46,6 +46,7 @@ ctda_necromancy_challenge_novice_success_chance = {
 		}
 		add = 5
 	}
+	max = 100
 }
 
 ctda_necromancy_challenge_apprentice_success_chance = {
@@ -88,6 +89,7 @@ ctda_necromancy_challenge_apprentice_success_chance = {
 		}
 		add = 5
 	}
+	max = 100
 }
 
 ctda_necromancy_challenge_adept_success_chance = {
@@ -124,6 +126,7 @@ ctda_necromancy_challenge_adept_success_chance = {
 		}
 		add = 5
 	}
+	max = 100
 }
 
 ctda_necromancy_challenge_expert_success_chance = {
@@ -154,6 +157,7 @@ ctda_necromancy_challenge_expert_success_chance = {
 		}
 		add = 5
 	}
+	max = 100
 }
 
 ctda_necromancy_challenge_master_success_chance = {
@@ -178,29 +182,40 @@ ctda_necromancy_challenge_master_success_chance = {
 		}
 		add = 5
 	}
+	max = 100
 }
 
 ctda_necromancy_challenge_novice_fail_chance = {
 	value = 100
 	subtract = ctda_necromancy_challenge_novice_success_chance
+	min = 0
+	max = 100
 }
 
 ctda_necromancy_challenge_apprentice_fail_chance = {
 	value = 100
 	subtract = ctda_necromancy_challenge_apprentice_success_chance
+	min = 0
+	max = 100
 }
 
 ctda_necromancy_challenge_adept_fail_chance = {
 	value = 100
 	subtract = ctda_necromancy_challenge_adept_success_chance
+	min = 0
+	max = 100
 }
 
 ctda_necromancy_challenge_expert_fail_chance = {
 	value = 100
 	subtract = ctda_necromancy_challenge_expert_success_chance
+	min = 0
+	max = 100
 }
 
 ctda_necromancy_challenge_master_fail_chance = {
 	value = 100
 	subtract = ctda_necromancy_challenge_master_success_chance
+	min = 0
+	max = 100
 }
