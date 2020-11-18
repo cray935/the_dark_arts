@@ -4,17 +4,11 @@
   trait_ctda_necromancer_desc:0 "This character is practicing the dark arts."
   
   trait_ctda_lore_bones:0 "Lore of Bones"
-  trait_ctda_lore_bones_desc:0 "This lore is full of knowledge to raise skeletal minions for fighting."
+  trait_ctda_lore_bones_desc:0 "This character has the knowledge to raise skeletal minions for fighting."
   
   trait_ctda_lore_souls:0 "Lore of Souls"
-  trait_ctda_lore_souls_desc:0 "This lore concentrates on the accusition of soul gems, soul trapping and offerings to the ideal masters for power."
-  
-  trait_ctda_lore_flesh:0 "Lore of Flesh"
-  trait_ctda_lore_flesh_desc:0 "This lore grants abilities to extend the necromancer‘s lifespan and later to improve other character‘s  skills."
-  
-  trait_ctda_lore_curses:0 "Lore of Curses"
-  trait_ctda_lore_curses_desc:0 "This lore contains knowledge to spread disease and plaque to foes."
+  trait_ctda_lore_souls_desc:0 "This character has the knowledge for accusition of soul gems, soul trapping and offerings to the ideal masters for power."
   
   trait_ctda_lore_undeath:0 "Lore of Undeath"
-  trait_ctda_lore_undeath_desc:0 "This lore reveals the ability to become a powerful lich and to make other characters undead."
+  trait_ctda_lore_undeath_desc:0 "This character has the knowledge to become a powerful lich and to make other characters undead."
   
