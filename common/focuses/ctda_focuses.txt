@@ -8,7 +8,7 @@ ctda_necromancer_knowledge_focus = {
 	}
 
 	modifier = {
-		monthly_ctda_necromancer_lifestyle_xp_gain_mult = 0.25
+		learning = 2
 	}
 }
 

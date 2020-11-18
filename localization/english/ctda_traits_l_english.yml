@@ -1,17 +1,7 @@
 ﻿l_english:
 
   trait_ctda_necromancer:0 "Necromancer"
-  trait_ctda_necromancer_1:0 "Necromancer (Novice)"
-  trait_ctda_necromancer_2:0 "Necromancer (Apprentice)"
-  trait_ctda_necromancer_3:0 "Necromancer (Adept)"
-  trait_ctda_necromancer_4:0 "Necromancer (Expert)"
-  trait_ctda_necromancer_5:0 "Necromancer (Master)"
-  trait_ctda_necromancer_base_desc:0 "This character is practicing the dark arts."
-  trait_ctda_necromancer_1_desc:0 "$trait_ctda_necromancer_base_desc$"
-  trait_ctda_necromancer_2_desc:0 "$trait_ctda_necromancer_base_desc$"
-  trait_ctda_necromancer_3_desc:0 "$trait_ctda_necromancer_base_desc$"
-  trait_ctda_necromancer_4_desc:0 "$trait_ctda_necromancer_base_desc$"
-  trait_ctda_necromancer_5_desc:0 "$trait_ctda_necromancer_base_desc$"
+  trait_ctda_necromancer_desc:0 "This character is practicing the dark arts."
   
   trait_ctda_lore_bones:0 "Lore of Bones"
   trait_ctda_lore_bones_desc:0 "This lore is full of knowledge to raise skeletal minions for fighting."

@@ -1,5 +1,9 @@
 ctda_necromancer_lifestyle = {
 
 	xp_per_level = 1000
-	base_xp_gain = 20
+	base_xp_gain = 25
+
+	is_valid = {
+		has_trait = ctda_necromancer	
+	}
 }

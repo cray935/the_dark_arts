@@ -1,18 +1,13 @@
-ctda_decision_practice_necromancy = {
-	picture = "gfx/interface/illustrations/decisions/ctda_decision_practice_necromancy.dds"
-	ai_check_interval = 6
+ctda_decision_embrace_necromancy = {
+	picture = "gfx/interface/illustrations/decisions/ctda_decision_embrace_necromancy.dds"
 	desc = ctda_decision_practice_necromancy_desc
 	cost = {
-		piety = 50
-	}
-
-	cooldown = {
-		months = 3
+		piety = 100
 	}
 
 	is_shown = {
 		is_landed = yes
-		is_necromancer = yes
+		NOT = { has_trait = ctda_necromancer }
 	}
 
 	is_valid_showing_failures_only = {
@@ -20,35 +15,10 @@ ctda_decision_practice_necromancy = {
 	}
 
 	effect = {
-		
-		hidden_effect = {
-			random_sub_realm_barony = {
-				title_province = {
-					spawn_activity = {
-						type = ctda_activity_practice_necromancy
-						owner = root
-					}
-				}
-			}
-		}
+		add_trait = ctda_necromancer
 	}
 
-	ai_will_do = {
-		base = 35
-
-		modifier = {
-			add = 10
-			has_trait_rank = {
-				trait = ctda_necromancer
-				rank < 3
-			}
-		}
-		modifier = {
-			add = 10
-			has_trait_rank = {
-				trait = ctda_necromancer
-				rank < 2
-			}
-		}
+	ai_potential = {
+		always = no
 	}
 }
